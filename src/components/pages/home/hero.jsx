@@ -5,9 +5,14 @@ import Image from "next/image";
 export function Hero() {
   return (
     <>
-      <section className="parallax h-screen flex items-center justify-center relative">
-        <h1>Seja bem vindo!</h1>
-        <div className="absolute bottom-[-350px] max-sm:bottom-[-600px] left-1/2 transform -translate-x-1/2 w-full max-w-[1000px]">
+      <section className="parallax min-h-[100vh] lg:bg-fixed bg-center bg-cover  text-start h-screen flex items-center justify-center relative">
+        <div className="w-full text-start p-10 -mt-10">
+          <h1 className="text-start text-xl">
+            Bem vindo. <br />{" "}
+            <span className="font-semibold">Supreenda-se!</span>
+          </h1>
+        </div>
+        <div className="absolute bottom-[-350px] max-sm:bottom-[-400px] left-1/2 transform -translate-x-1/2 w-full max-w-[1000px]  ">
           <div className="bg-red-600 p-10 rounded-2xl text-white flex flex-col items-center  ">
             <Image
               src={"/logo.jpeg"}
@@ -16,12 +21,12 @@ export function Hero() {
               alt="Logo WSL LOG"
               className="rounded-md"
             />
-            <h1 className="text-3xl font-light  mt-8">
+            <h1 className="text-3xl font-light  mt-8 max-sm:text-center max-sm:mt-3">
               <span className="font-bold">Sonhos</span> transportados e <br />{" "}
-              entregues <span className="font-bold">de norte a sul</span>
+              entregues <span className="font-bold">de norte a sul!</span>
             </h1>
 
-            <div className="flex flex-col mt-20 space-y-4">
+            <div className="flex flex-col mt-20 space-y-4 max-sm:mt-10 max-sm:text-sm max-sm:space-y-2">
               <p>A WSL é uma empresa especializada no transporte de grãos.</p>
               <p>
                 Com uma frota própria de caminhões, estamos preparados para
