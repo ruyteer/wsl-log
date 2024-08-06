@@ -5,9 +5,9 @@ import Image from "next/image";
 export function Hero() {
   return (
     <>
-      <section className="parallax min-h-[100vh] lg:bg-fixed bg-center bg-cover  text-start h-screen flex items-center justify-center relative">
-        <div className="w-full text-start p-10 -mt-10">
-          <h1 className="text-start text-xl">
+      <section className="parallax   min-h-[100vh] lg:bg-fixed bg-center bg-cover   text-start h-screen flex items-center justify-center relative">
+        <div className="w-full text-start max-sm:p-10 lg:w-[50%] -mt-10">
+          <h1 className="text-start text-xl  lg:text-3xl font-light">
             Bem vindo. <br />{" "}
             <span className="font-semibold">Supreenda-se!</span>
           </h1>
