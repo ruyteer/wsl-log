@@ -12,7 +12,7 @@ export function Hero() {
             <span className="font-semibold">Supreenda-se!</span>
           </h1>
         </div>
-        <div className="absolute bottom-[-350px] max-sm:bottom-[-400px] left-1/2 transform -translate-x-1/2 w-full max-w-[1000px]  ">
+        <div className="absolute bottom-[-350px] max-sm:bottom-[-600px] left-1/2 transform -translate-x-1/2 w-full max-w-[1000px]  ">
           <div className="bg-red-600 p-10 rounded-2xl text-white flex flex-col items-center  ">
             <Image
               src={"/logo.jpeg"}
@@ -21,31 +21,44 @@ export function Hero() {
               alt="Logo WSL LOG"
               className="rounded-md"
             />
-            <h1 className="text-3xl font-light  mt-8 max-sm:text-center max-sm:mt-3">
-              <span className="font-bold">Sonhos</span> transportados e <br />{" "}
-              entregues <span className="font-bold">de norte a sul!</span>
+            <h1 className="text-3xl font-light  mt-8 text-center max-sm:mt-3">
+              <span className="font-bold">Logística</span> que <br /> nos{" "}
+              <span className="font-bold">move!</span>
             </h1>
 
-            <div className="flex flex-col mt-20 space-y-4 max-sm:mt-10 max-sm:text-sm max-sm:space-y-2">
-              <p>A WSL é uma empresa especializada no transporte de grãos.</p>
-              <p>
-                Com uma frota própria de caminhões, estamos preparados para
-                atender às demandas do setor agrícola, garantindo eficiência e
-                segurança em cada entrega. Nossa missão é oferecer soluções
-                logísticas que facilitem o transporte agrícola, conectando
-                nossos clientes às melhores práticas de logística.
-              </p>
-            </div>
+            <section className="flex items-center justify-between max-sm:justify-center max-sm:flex-col">
+              <div className="flex flex-col mt-20 lg:max-w-[65%] space-y-4 max-sm:mt-10 max-sm:text-sm max-sm:space-y-2">
+                <p>A WSL é uma empresa especializada no transporte de grãos.</p>
+                <p>
+                  Com uma frota própria de caminhões, estamos preparados para
+                  atender às demandas do setor agrícola, garantindo eficiência e
+                  segurança em cada entrega. Nossa missão é oferecer soluções
+                  logísticas que facilitem o transporte agrícola, conectando
+                  nossos clientes às melhores práticas de logística.
+                </p>
+              </div>
+              <div className="max-sm:mt-10 max-sm:items-center max-sm:flex max-sm:flex-col max-sm:justify-center">
+                <Image
+                  src={"/truck.png"}
+                  width={250}
+                  height={250}
+                  className="-ml-10 rounded-md"
+                />
+                <Image
+                  src={"/truck2.jpg"}
+                  width={250}
+                  height={250}
+                  className="-mt-8 rounded-md"
+                />
+              </div>
+            </section>
             <div className="flex flex-col mt-10 text-start">
               <button className="bg-gradient-to-r   from-red-600 to-red-800 border-[1px] border-white w-80 rounded-3xl px-4 py-2 shadow-lg font-medium">
-                CONHECER AS FILIAIS
+                CONHECER PARCEIROS
               </button>
             </div>
           </div>
         </div>
-      </section>
-      <section className="h-screen flex items-center justify-center">
-        {/* Conteúdo da segunda seção */}
       </section>
     </>
   );
