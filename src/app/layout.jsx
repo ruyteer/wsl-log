@@ -1,6 +1,8 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import "aos/dist/aos.css";
 import { Navbar } from "@/components/ui/navbar";
+import { AOSProvider } from "@/providers/aos";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -18,6 +20,7 @@ export default function RootLayout({ children }) {
       <body className={poppins.className}>
         <Navbar />
         {children}
+        <AOSProvider />
       </body>
     </html>
   );

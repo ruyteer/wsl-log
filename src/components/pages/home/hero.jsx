@@ -27,7 +27,10 @@ export function Hero() {
             </h1>
 
             <section className="flex items-center justify-between max-sm:justify-center max-sm:flex-col">
-              <div className="flex flex-col mt-20 lg:max-w-[65%] space-y-4 max-sm:mt-10 max-sm:text-sm max-sm:space-y-2">
+              <div
+                className="flex flex-col mt-20 lg:max-w-[65%] space-y-4 max-sm:mt-10 max-sm:text-sm max-sm:space-y-2 "
+                data-aos="fade-up"
+              >
                 <p>A WSL é uma empresa especializada no transporte de grãos.</p>
                 <p>
                   Com uma frota própria de caminhões, estamos preparados para
@@ -37,7 +40,10 @@ export function Hero() {
                   nossos clientes às melhores práticas de logística.
                 </p>
               </div>
-              <div className="max-sm:mt-10 max-sm:items-center max-sm:flex max-sm:flex-col max-sm:justify-center">
+              <div
+                className="max-sm:mt-10 max-sm:items-center max-sm:flex max-sm:flex-col max-sm:justify-center"
+                data-aos="fade-up"
+              >
                 <Image
                   src={"/truck.png"}
                   width={250}
@@ -49,11 +55,15 @@ export function Hero() {
                   width={250}
                   height={250}
                   className="-mt-8 rounded-md"
+                  data-aos="fade-up"
                 />
               </div>
             </section>
             <div className="flex flex-col mt-10 text-start">
-              <button className="bg-gradient-to-r   from-red-600 to-red-800 border-[1px] border-white w-80 rounded-3xl px-4 py-2 shadow-lg font-medium">
+              <button
+                className="bg-gradient-to-r   from-red-600 to-red-800 border-[1px] border-white w-80 rounded-3xl px-4 py-2 shadow-lg font-medium"
+                data-aos="fade-up"
+              >
                 CONHECER PARCEIROS
               </button>
             </div>
