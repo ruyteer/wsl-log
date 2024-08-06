@@ -8,7 +8,7 @@ export function MovingClients() {
       <InfiniteMovingCards
         items={images}
         direction="right"
-        speed="normal"
+        speed="fast"
         pauseOnHover={false}
       />
     </div>
