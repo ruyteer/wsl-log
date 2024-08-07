@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function WhyChoose() {
   return (
     <>
@@ -5,7 +7,7 @@ export function WhyChoose() {
         className="h-[110vh] max-sm:h-[100%] max-sm:mb-10 flex flex-col items-center justify-center"
         data-aos="fade-up"
       >
-        <div className="w-[60%] h-[1px] bg-gray-200 mt-[20%] max-sm:mt-[180%] mb-20"></div>
+        <div className="w-[60%] h-[1px] bg-gray-200 mt-[20%] max-sm:mt-[160%] mb-20"></div>
 
         <h1 className="text-4xl font-light max-w-[300px] text-red-600 text-center">
           <span className="font-bold">Por quê</span> escolher a{" "}
@@ -53,12 +55,18 @@ export function WhyChoose() {
           </div>
         </article>
 
-        <button
-          className="bg-red-600 text-white font-semibold py-4 px-10 rounded-full max-sm:mt-20 mt-10"
-          data-aos="fade-up"
+        <Link
+          href={
+            "https://api.whatsapp.com/send?phone=5577981140394&text=Quero%20fazer%20um%20orçamento%20hoje!"
+          }
         >
-          CONTRATAR SERVIÇOS
-        </button>
+          <button
+            className="bg-red-600 text-white font-semibold py-4 px-10 rounded-full max-sm:mt-20 mt-10"
+            data-aos="fade-up"
+          >
+            CONTRATAR SERVIÇOS
+          </button>
+        </Link>
       </section>
     </>
   );

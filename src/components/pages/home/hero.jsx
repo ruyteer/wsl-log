@@ -1,11 +1,12 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 export function Hero() {
   return (
     <>
-      <section className="parallax   min-h-[100vh] lg:bg-fixed bg-center bg-cover   text-start h-screen flex items-center justify-center relative">
+      <section className="parallax max-sm:mobile   min-h-[100vh] lg:bg-fixed max-sm:bg-bottom  lg:bg-center bg-cover   text-start h-screen  flex items-center justify-center relative">
         {/* <div className="w-full text-start max-sm:p-10 lg:w-[50%] -mt-10">
           <h1 className="text-start text-xl  lg:text-3xl font-light">
             Bem vindo. <br />{" "}
@@ -14,7 +15,7 @@ export function Hero() {
         </div> */}
         <div
           id="sobre"
-          className="absolute bottom-[-350px] max-sm:bottom-[-600px] left-1/2 transform -translate-x-1/2 w-full max-w-[1000px]  "
+          className="absolute bottom-[-350px] max-sm:bottom-[-500px] left-1/2 transform -translate-x-1/2 w-full max-w-[1000px]  "
         >
           <div className="bg-red-600 p-10 rounded-2xl text-white flex flex-col items-center  ">
             <Image
@@ -63,12 +64,14 @@ export function Hero() {
               </div>
             </section>
             <div className="flex flex-col mt-10 text-start">
-              <button
-                className="bg-gradient-to-r   from-red-600 to-red-800 border-[1px] border-white w-80 rounded-3xl px-4 py-2 shadow-lg font-medium"
-                data-aos="fade-up"
-              >
-                CONHECER PARCEIROS
-              </button>
+              <Link href={"#parceiros"}>
+                <button
+                  className="bg-gradient-to-r   from-red-600 to-red-800 border-[1px] border-white w-80 rounded-3xl px-4 py-2 shadow-lg font-medium"
+                  data-aos="fade-up"
+                >
+                  CONHECER PARCEIROS
+                </button>
+              </Link>
             </div>
           </div>
         </div>
