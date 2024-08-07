@@ -49,14 +49,7 @@ export function Footer() {
             de Conduta.
           </p>
           <p className="text-center text-sm max-sm:text-xs text-gray-200 italic">
-            © 2024 • WSL Logística | Site feito com ❤ por{" "}
-            <a
-              href="https://ruyter.cloud"
-              target="_blank"
-              className="text-blue-600 font-medium"
-            >
-              Ruyter
-            </a>
+            © 2024 • WSL Logística | Todos os direitos reservados.
           </p>
         </div>
       </footer>
