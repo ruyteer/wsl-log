@@ -33,11 +33,11 @@ export function Hero() {
               >
                 <p>A WSL é uma empresa especializada no transporte de grãos.</p>
                 <p>
-                  Com uma frota própria de caminhões, estamos preparados para
-                  atender às demandas do setor agrícola, garantindo eficiência e
-                  segurança em cada entrega. Nossa missão é oferecer soluções
-                  logísticas que facilitem o transporte agrícola, conectando
-                  nossos clientes às melhores práticas de logística.
+                  A WSL é uma empresa líder no transporte de grãos. Com nossa
+                  frota própria de caminhões, atendemos às demandas do setor
+                  agrícola com eficiência e segurança. Nossa missão é oferecer
+                  soluções logísticas que otimizam o transporte agrícola,
+                  conectando nossos clientes às melhores práticas de logística.
                 </p>
               </div>
               <div
