@@ -15,7 +15,7 @@ export function Hero() {
         </div> */}
         <div
           id="sobre"
-          className="absolute bottom-[-350px] max-sm:bottom-[-500px] left-1/2 transform -translate-x-1/2 w-full max-w-[1000px]  "
+          className="absolute bottom-[-350px] max-sm:bottom-[-500px] left-1/2 transform -translate-x-1/2 w-full max-w-[1000px] z-10 "
         >
           <div className="bg-red-600 p-10 rounded-2xl text-white flex flex-col items-center  ">
             <Image
@@ -64,13 +64,12 @@ export function Hero() {
               </div>
             </section>
             <div className="flex flex-col mt-10 text-start">
-              <Link href={"#parceiros"}>
-                <button
-                  className="bg-gradient-to-r   from-red-600 to-red-800 border-[1px] border-white w-80 rounded-3xl px-4 py-2 shadow-lg font-medium"
-                  data-aos="fade-up"
-                >
-                  CONHECER PARCEIROS
-                </button>
+              <Link
+                className="bg-gradient-to-r  text-center  from-red-600 to-red-800 border-[1px] border-white w-80 rounded-3xl px-4 py-2 shadow-lg font-medium"
+                data-aos="fade-up"
+                href={"#parceiros"}
+              >
+                CONHECER PARCEIROS
               </Link>
             </div>
           </div>
