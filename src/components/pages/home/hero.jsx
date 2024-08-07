@@ -12,7 +12,10 @@ export function Hero() {
             <span className="font-semibold">Supreenda-se!</span>
           </h1>
         </div>
-        <div className="absolute bottom-[-350px] max-sm:bottom-[-600px] left-1/2 transform -translate-x-1/2 w-full max-w-[1000px]  ">
+        <div
+          id="sobre"
+          className="absolute bottom-[-350px] max-sm:bottom-[-600px] left-1/2 transform -translate-x-1/2 w-full max-w-[1000px]  "
+        >
           <div className="bg-red-600 p-10 rounded-2xl text-white flex flex-col items-center  ">
             <Image
               src={"/logo.jpeg"}

@@ -10,7 +10,10 @@ export function ContactForm() {
   const [state, handleSubmit] = useForm("mblrylwe");
 
   return (
-    <section className="h-[80vh] flex flex-col items-center justify-center">
+    <section
+      id="contato"
+      className="h-[80vh] flex flex-col items-center justify-center"
+    >
       <h1 className="text-4xl text-red-600 font-light max-sm:text-3xl">
         Entre em <span className="font-bold">contato!</span>
       </h1>

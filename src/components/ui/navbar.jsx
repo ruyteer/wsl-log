@@ -27,7 +27,7 @@ export function Navbar() {
         <ul className="flex items-center gap-10  max-sm:hidden">
           <li>
             <Link
-              href={"#"}
+              href={"/"}
               className="hover:text-red-600 transition duration-300 uppercase font-medium"
             >
               Home
@@ -35,7 +35,7 @@ export function Navbar() {
           </li>
           <li>
             <Link
-              href={"#"}
+              href={"#sobre"}
               className="hover:text-red-600 transition duration-300 uppercase font-medium"
             >
               Sobre
@@ -43,15 +43,15 @@ export function Navbar() {
           </li>
           <li>
             <Link
-              href={"#"}
+              href={"#parceiros"}
               className="hover:text-red-600 transition duration-300 uppercase font-medium"
             >
-              Filiais
+              Parceiros
             </Link>
           </li>
           <li>
             <Link
-              href={"#"}
+              href={"#contato"}
               className="hover:text-red-600 transition duration-300 uppercase font-medium"
             >
               Contato
@@ -76,28 +76,28 @@ export function Navbar() {
               </SheetHeader>
               <SheetDescription className="flex items-center gap-10  flex-col">
                 <Link
-                  href={"#"}
+                  href={"/"}
                   className="hover:text-red-600 transition duration-300 uppercase font-medium"
                 >
                   Home
                 </Link>
 
                 <Link
-                  href={"#"}
+                  href={"#sobre"}
                   className="hover:text-red-600 transition duration-300 uppercase font-medium"
                 >
                   Sobre
                 </Link>
 
                 <Link
-                  href={"#"}
+                  href={"#parceiros"}
                   className="hover:text-red-600 transition duration-300 uppercase font-medium"
                 >
-                  Filiais
+                  Parceiros
                 </Link>
 
                 <Link
-                  href={"#"}
+                  href={"#contato"}
                   className="hover:text-red-600 transition duration-300 uppercase font-medium"
                 >
                   Contato
