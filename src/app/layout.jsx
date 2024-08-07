@@ -12,13 +12,14 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "WSL DEV",
-  description: "WSL Logística",
+  title: "WSL LOG",
+  description: "WSL Logística e Transportes",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
+      <link rel="shortcut icon" href="/logo.jpeg" />
       <body className={poppins.className}>
         <Navbar />
         {children}
