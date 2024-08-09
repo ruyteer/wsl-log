@@ -20,8 +20,7 @@ export function Footer() {
           <div className="flex flex-col items-start  ">
             <h1 className="text-2xl font-semibold">Sede</h1>
 
-            <p className="mt-5 text-sm">Endereço Wsl Log aqui</p>
-            <p className="mt-1 text-sm">Brasília - DF</p>
+            <p className="mt-5 text-sm">Barreiras - BA</p>
           </div>
           <div className="flex flex-col items-start  ">
             <h1 className="text-2xl font-semibold">Contato</h1>
