@@ -207,7 +207,7 @@ export default function WallaceSantanaDeOliveira() {
       </section>
 
       {/* Liderança na WSL */}
-      <section className="lideranca-banner py-24 max-sm:py-16 px-10 flex justify-center overflow-hidden">
+      <section className="lideranca-banner py-24 max-sm:pt-16 max-sm:pb-32 px-10 flex justify-center overflow-hidden">
         <div className="max-w-[1100px] w-full flex items-center gap-16 max-sm:flex-col">
           <div className="lg:w-1/2" data-aos="fade-up">
             <h2 className="text-4xl max-sm:text-3xl font-light text-white">
