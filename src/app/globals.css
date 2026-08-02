@@ -98,6 +98,28 @@ body {
     url("/seeds.png");
 }
 
+.lideranca-banner {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.936),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("/colheita.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bio-banner {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.936),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("/estrada.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .trucks-banner {
   background-image: linear-gradient(
       to bottom,

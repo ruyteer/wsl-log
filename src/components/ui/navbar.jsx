@@ -51,6 +51,14 @@ export function Navbar() {
           </li>
           <li>
             <Link
+              href={"/wallace-santana-de-oliveira"}
+              className="hover:text-red-600 transition duration-300 uppercase font-medium"
+            >
+              Fundador
+            </Link>
+          </li>
+          <li>
+            <Link
               href={"#contato"}
               className="hover:text-red-600 transition duration-300 uppercase font-medium"
             >
@@ -94,6 +102,13 @@ export function Navbar() {
                   className="hover:text-red-600 transition duration-300 uppercase font-medium"
                 >
                   Parceiros
+                </Link>
+
+                <Link
+                  href={"/wallace-santana-de-oliveira"}
+                  className="hover:text-red-600 transition duration-300 uppercase font-medium"
+                >
+                  Fundador
                 </Link>
 
                 <Link

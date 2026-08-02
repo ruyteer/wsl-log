@@ -23,6 +23,16 @@ export function Footer() {
             <p className="mt-5 text-sm">Barreiras - BA</p>
           </div>
           <div className="flex flex-col items-start  ">
+            <h1 className="text-2xl font-semibold">Institucional</h1>
+
+            <Link
+              className="mt-5 text-sm underline"
+              href={"/wallace-santana-de-oliveira"}
+            >
+              Wallace Santana de Oliveira — Fundador
+            </Link>
+          </div>
+          <div className="flex flex-col items-start  ">
             <h1 className="text-2xl font-semibold">Contato</h1>
 
             <Link
